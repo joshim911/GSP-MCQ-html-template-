@@ -1,0 +1,11 @@
+#gsp_mcq_visibility span{
+	padding: 8px; background: #000; color: #fff; font-weight: bold;font-size: 1.3rem; border: 1px dotted gray;
+}
+
+/**
+ * GSP Add MCQ Section 
+ */
+
+ .gsp-mcq-span{
+ 	cursor: pointer;
+ }

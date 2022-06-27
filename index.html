@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>GSP MCQ</title>
+</head>
+<body class="container">
+	<section>
+		<div class="mb-3">
+			<h2 >GSP MCQ</h2>
+		</div>
+		<div id="gsp_mcq_visibility" class="my-3">
+			<span id="gsp_add_mcq" class="gsp-mcq-span">Add MCQ</span ><span id="gsp_edit_mcq" class="gsp-mcq-span">Edit List</span>
+		</div>
+	</section>
+
+	<!-- add mcq -->
+
+	<section id="gsp_add_mcq_section" class="input-group border p-3 mb-5">
+		<div>
+			<h3>Add MCQ</h3>
+		</div>
+		<div class="input-group gsp-mcq-title">
+			<label><b>What is your nick name</b></label>
+		</div>
+		<div id="gsp_mcq_option_box" class="input-group mb-3">
+			<input type="text" name="gsp-mcq-title" class="gsp-mcq-options form-control mr-2" value="" placeholder="Please Write the option" class="gsp-mcq-options" /><span>Default</span>
+		</div>
+		<div class="input-group mb-3">
+			<button id="gsp_msq_add_option" class="btn-dark btn">Add Another Option</button>
+		</div>
+		<div>
+			<button id="gsp_msq_data_submit" class="btn-primary btn">Save</button>
+		</div>
+	</section>
+	</section>
+
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fun.js"></script>
+</html>
